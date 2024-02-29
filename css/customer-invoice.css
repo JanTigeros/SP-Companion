@@ -1,0 +1,79 @@
+html, body {
+    margin: 0px !important;
+    height: 100% !important;
+}
+
+.invoice {
+    padding: 20px;
+}
+
+.invoice p {
+    margin-bottom: 2px;
+}
+
+hr {
+    opacity: 1 !important;
+    border: 2px solid black !important;
+}
+
+li {
+    list-style: none;
+}
+
+#product-list-display {
+    list-style: none;
+    padding: 0px;
+}
+
+.product {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 390px) {
+    .kolicina {
+        position: absolute; /* Set absolute positioning for .kolicina */
+        right: 90px;
+    }
+    
+}
+
+@media (min-width: 390px) {
+    .kolicina {
+        position: absolute; /* Set absolute positioning for .kolicina */
+        right: 150px;
+    }
+}
+
+.skupaj {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.skupajContent {
+    margin: auto;
+    width: 50%;
+}
+
+.end-text {
+    margin-top: 50px;
+    font-size: smaller;
+}
+
+#downloadButton {
+    font-size: 26px;
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(90deg, rgba(132,239,251,1) 0%, rgba(117,173,253,1) 100%) 10;
+    background: linear-gradient(90deg, rgba(132,239,251,1) 0%, rgba(117,173,253,1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+#downloadButton:hover {
+    cursor: pointer;
+    box-shadow: 0 0 15px rgba(132,239,251,1);
+    transition: 0.5s;
+}

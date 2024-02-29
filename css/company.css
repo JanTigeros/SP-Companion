@@ -1,0 +1,14 @@
+html, body {
+    background-color: #383838 !important;
+    margin: 0px !important;
+    height: 100% !important;
+}
+
+#title {
+    padding: 10px 10px 10px 10px !important;
+    background: linear-gradient(90deg, rgba(132,239,251,1) 0%, rgba(117,173,253,1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}

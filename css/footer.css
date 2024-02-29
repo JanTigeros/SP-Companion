@@ -1,0 +1,44 @@
+#footer h4 {
+    text-align: center;
+    background: linear-gradient(90deg, rgba(132,239,251,1) 0%, rgba(117,173,253,1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 10px 0px 10px 0px !important;
+}
+
+#footer ul {
+    text-align: center;
+    list-style-type: none;
+    overflow: hidden;
+    margin: 10px;
+    padding: 0px;
+}
+
+footer ul li {
+    float: left;
+}
+
+#footer ul a {
+    text-decoration: none;
+    background: linear-gradient(90deg, rgba(132,239,251,1) 0%, rgba(117,173,253,1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#footer ul a:hover {
+    background: rgba(117,173,253,1);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#footer #copyright-text {
+    text-align: center;
+    background: linear-gradient(90deg, rgba(132,239,251,1) 0%, rgba(117,173,253,1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 10px 0px 10px 0px !important;
+}
